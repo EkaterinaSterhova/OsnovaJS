@@ -1,2 +1,6 @@
-let greeting=prompt("Введите имя");
-alert("Здравсвуйте "+greeting);
+let name=prompt("Введите имя");
+
+function greeting(name) { 
+return name
+}
+alert("Здравсвуйте "+greeting(name));
